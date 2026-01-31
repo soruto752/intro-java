@@ -94,9 +94,9 @@ let studentFirstName = "Tolulope";
 let studentLastName = "Alakiu";
 let totalExamScore = 85;
 console.log("task 12");
+console.log(totalExamScore);
 
 //task 13
-
 let word1 = "Java";
 let word2 = "Script";
 let language = word1 + word2;
@@ -109,3 +109,12 @@ let text = "I am";
 let sentence = text + height;
 console.log("task 14");
 console.log(sentence);
+
+//task 15
+//The code below is incorrect. Rewrite it correctly.'
+
+let totalcost = 500;
+const name = "John";
+let _sum = totalcost + 200;
+console.log("task 15");
+console.log(totalcost);
