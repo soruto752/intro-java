@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <script>
+      function displayText() {
+        document.getElementById("title").innerHTML = " hard";
+        document.getElementById("description").innerHTML = "this is very hard";
+      }
+
+      function hideText() {
+        document.getElementById("title").innerHTML = "";
+        document.getElementById("description").innerHTML = "";
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1 id="title"></h1>
+      <p id="description"></p>
+      <button
+        style="background-color: green; color: white"
+        onclick="displayText()"
+      >
+        Display text
+      </button>
+      <button style="background-color: red; color: white" onclick="hideText()">
+        Hide text
+      </button>
+    </div>
+  </body>
+</html>
